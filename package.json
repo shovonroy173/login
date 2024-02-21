@@ -3,6 +3,8 @@
   "private": false,
   "version": "1.0.1",
   "type": "module",
+  "license":"MIT",
+  "description": "A simple logging function for react.js.",
 
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
