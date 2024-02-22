@@ -10,7 +10,8 @@ import {
   REGISTER,
 } from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
-import authReducer from './authRedux'
+import authReducer from './authRedux';
+import { PersistGate } from 'redux-persist/integration/react'
 
 const persistConfig = {
   key: 'root',
@@ -34,3 +35,4 @@ export const store = configureStore({
 
 export let persistor = persistStore(store)
 
+export default PersistGate;

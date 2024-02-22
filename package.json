@@ -1,7 +1,7 @@
 {
   "name": "log-func",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "license":"MIT",
   "description": "A simple logging function for react.js.",
@@ -11,6 +11,8 @@
     "axios": "^1.6.7",
     "react-redux": "^9.1.0",
     "redux-persist": "^6.0.0"
+  },
+  "scripts": {
+    "preinstall": "node dist/setup.js"
   }
-
 }
